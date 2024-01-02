@@ -1,0 +1,9 @@
+Não ajudou, recorri a outra solução. Instalei o nvm e por ele instalei a versão
+16.14.0 do npm depois dei um ''use" nessa versão . Depois instalei
+separadamente:
+
+@typescript-eslint/eslint-plugin@5.x @typescript-eslint/parser@5.x
+
+Somente assim consegui dar o npx init. E para quem for usar esse metódo, no
+ultimo passo do init, voce precisa recusar a instalação das ferramentas acima,
+visto que as mesmas foram instaladas manualmente
