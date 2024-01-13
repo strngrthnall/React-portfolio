@@ -2,10 +2,10 @@ import { Paragraph as ParagraphStyle } from './styles'
 
 export type Props = {
   children: string
-  paragraphType?: 'principal' | 'secundario'
+  paragraphType?: 'main' | 'secondary'
 }
 
-const Paragraph = ({ children, paragraphType = 'principal' }: Props) => (
+const Paragraph = ({ children, paragraphType = 'main' }: Props) => (
   <ParagraphStyle paragraphType={paragraphType}>{children}</ParagraphStyle>
 )
 

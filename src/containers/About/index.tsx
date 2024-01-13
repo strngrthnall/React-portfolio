@@ -5,7 +5,7 @@ import { GithubSection } from './styles'
 const About = () => (
   <section>
     <Title fontSize={16}>Sobre</Title>
-    <Paragraph paragraphType="principal">
+    <Paragraph paragraphType="main">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum natus ab
       sunt molestiae et facilis, fuga a in, debitis minima doloribus sequi animi
       error maiores rem? Quidem voluptatem earum ad?
