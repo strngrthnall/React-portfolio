@@ -7,17 +7,22 @@ export const Description = styled(ParagraphStyle)`
 `
 
 export const ThemeButton = styled.button`
-  font-size: 10px;
+  font-size: 13px;
   font-weight: bold;
-  border: none;
+  border: 2px solid ${(props) => props.theme.backgroundColor};
   border-radius: 12px;
-  color: #eee;
+  color: ${(props) => props.theme.backgroundColor};
   padding: 8px;
-  background-color: #282a35;
+  background-color: ${(props) => props.theme.mainColor};
   cursor: pointer;
 `
 export const SidebarContainer = styled.div`
   position: sticky;
   top: 80px;
   left: 0;
+
+  @media (max-width: 768px) {
+    margin-bottom: 40px;
+    text-align: center;
+  }
 `

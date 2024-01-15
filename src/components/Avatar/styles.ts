@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 export const PerfilPhoto = styled.img`
-  max-width: 80%;
+  width: 128px;
+  height: 128px;
   border-radius: 50%;
   margin-bottom: 24px;
 `
